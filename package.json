@@ -1,0 +1,23 @@
+{
+  "name": "pixel-pro",
+  "version": "1.0.0",
+  "description": "online course platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zak-devz/pixelPro.git"
+  },
+  "author": "Zakaria Rassili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zak-devz/pixelPro/issues"
+  },
+  "homepage": "https://github.com/Zak-devz/pixelPro#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
