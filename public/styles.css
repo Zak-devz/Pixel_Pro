@@ -152,13 +152,6 @@ nav {
   background-image: var(--gradient);
 }
 
-/* .banner__content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 1rem;
-} */
-
 .information__header {
   display: grid;
   gap: 2rem;
@@ -407,13 +400,6 @@ nav {
   color: #ff9e33;
 }
 
-/* .banner__content .btn {
-  background-color: white;
-  color: #ff9e33;
-  font-weight: 600;
-}  */
-
-
 @media (width > 480px) {
   .information__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -425,10 +411,6 @@ nav {
 
   .instructor__grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .experience__grid {
-    grid-template-columns: repeat(4, 1fr);
   }
 
   .footer__container {
@@ -461,15 +443,6 @@ nav {
   .banner__header__grid {
     grid-gap: 4rem;
   }
-/* 
-  .banner__content {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .banner__content .section__header {
-    text-align: left;
-  } */
 
   .information__header {
     grid-template-columns: 1fr 2fr;
@@ -519,7 +492,7 @@ nav {
     gap: 2rem;
   }
 }
- 
+
 .modal {
   display: none;
   position: fixed;
@@ -583,10 +556,11 @@ label {
   cursor: pointer;
 }
 
-.contact__form{
+.contact__form {
   text-align: center;
 }
 
-.modal-content h2, label{
+.modal-content h2,
+label {
   color: var(--bg-dark);
 }
