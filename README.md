@@ -1,9 +1,15 @@
 # Pixel Expert Photography
 
+## Introduction
+
 Welcome to Pixel Expert, an online platform offering exclusive photography courses to help enthusiasts and professionals enhance their skills. This project is built using HTML, CSS, and JavaScript. Below, you'll find essential information.
 
 ![Pixel Expert Preview_1](./public/assets/Web01.png)
 ![Pixel Expert Preview_2](./public/assets/Web02.png)
+
+- Deployed Site: https://pixelexpert.tech/
+- Final Project Blog Article: [Blog](#)
+- Author : [LinkedIn Profile](https://www.linkedin.com/in/zakaria-rassili/)
 
 ## Key Features
 
@@ -28,3 +34,7 @@ If you're interested in contributing to the project, we welcome your ideas and e
 **4- Push Changes to Your Fork:** Push your committed changes to your fork of the repository.
 
 **5- Submit a Pull Request:** Open a pull request to propose your changes for review and integration into the main project.
+
+## Licensing
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
