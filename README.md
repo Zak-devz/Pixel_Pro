@@ -8,7 +8,7 @@ Welcome to Pixel Expert, an online platform offering exclusive photography cours
 ![Pixel Expert Preview_2](./public/assets/Web02.png)
 
 - Deployed Site: https://pixelexpert.tech/
-- Final Project Blog Article: [Blog](#)
+- Final Project Blog Article: [Blog](https://medium.com/@zaki.92ras/unveiling-pixel-expert-a-photography-learning-platform-ce3f147559cd)
 - Author : [LinkedIn Profile](https://www.linkedin.com/in/zakaria-rassili/)
 
 ## Key Features
