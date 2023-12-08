@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
 const scrollRevealOption = {
   distance: '50px',
   origin: 'right',
@@ -67,3 +66,29 @@ ScrollReveal().reveal('.instructor__card', {
   ...InstructorScrollRevealOption,
   interval: 500,
 });
+
+function countDown() {
+  const hoursElement = document.getElementById('hours');
+  const minutesElement = document.getElementById('minutes');
+  const secondsElement = document.getElementById('seconds');
+
+  let hours = parseInt(hoursElement.textContent);
+  let minutes = parseInt(minutesElement.textContent);
+  let seconds = parseInt(secondsElement.textContent);
+
+  seconds--;
+  if (seconds < 0) {
+    seconds = 59;
+    minutes--;
+
+    if (minutes < 0) {
+      minutes = 59;
+      hours--;
+    }
+  }
+  // Update the HTML elements with the new values
+  hoursElement.textContent = hours.toString().padStart(2, '0');
+  minutesElement.textContent = minutes.toString().padStart(2, '0');
+  secondsElement.textContent = seconds.toString().padStart(2, '0');
+}
+setInterval(countDown, 1000);
